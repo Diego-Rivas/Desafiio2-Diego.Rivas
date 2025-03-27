@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gunjala+Gondi:wght@400..700&display=swap');
+
+header {
+    background-color: #BAD8B6;
+    text-align: center;
+}
+header img {
+    width: 180px;
+}
+nav {
+    background-color: #BAD8B6;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding: 30px;
+    font-size: 20px;
+}
+nav a {
+   text-decoration: none;
+   color: #A5B68D;
+}
+body {
+    background-color: #E1EACD;
+    padding: 0px;
+    margin: 0px;
+}
+.featured {
+    padding: 30px;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    text-align: center;
+}
+.card img {
+    width: 100px;
+}
+.card {
+    background-color: beige;
+    box-shadow: 0 0 10 rgb(0, 0, 0.1);
+    text-align: center;
+}
